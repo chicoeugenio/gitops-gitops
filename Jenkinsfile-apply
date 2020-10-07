@@ -6,7 +6,7 @@ pipeline {
 	disableConcurrentBuilds()
   }
   agent {
-	note{
+	node{
 		label 'nodejs'
 	}
   }
